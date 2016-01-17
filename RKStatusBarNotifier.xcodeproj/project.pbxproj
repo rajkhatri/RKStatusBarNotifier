@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E350D51C4B048E004F7013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E350D41C4B048E004F7013 /* AppDelegate.swift */; };
+		04E350DC1C4B048E004F7013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E350DB1C4B048E004F7013 /* Assets.xcassets */; };
+		04E350DF1C4B048E004F7013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E350DD1C4B048E004F7013 /* LaunchScreen.storyboard */; };
+		04E350EC1C4B48BD004F7013 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E350E91C4B48BD004F7013 /* DemoViewController.swift */; };
+		04E350ED1C4B48BD004F7013 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E350EB1C4B48BD004F7013 /* Notifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04E350D11C4B048E004F7013 /* RKStatusBarNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKStatusBarNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E350D41C4B048E004F7013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E350DB1C4B048E004F7013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E350DE1C4B048E004F7013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E350E01C4B048E004F7013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E350E91C4B48BD004F7013 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		04E350EB1C4B48BD004F7013 /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E350CE1C4B048E004F7013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E350C81C4B048E004F7013 = {
+			isa = PBXGroup;
+			children = (
+				04E350D31C4B048E004F7013 /* RKStatusBarNotifier */,
+				04E350D21C4B048E004F7013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E350D21C4B048E004F7013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E350D11C4B048E004F7013 /* RKStatusBarNotifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E350D31C4B048E004F7013 /* RKStatusBarNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				04E350D41C4B048E004F7013 /* AppDelegate.swift */,
+				04E350E81C4B48BD004F7013 /* Demo */,
+				04E350EA1C4B48BD004F7013 /* RKStatusBarNotifier */,
+				04E350DB1C4B048E004F7013 /* Assets.xcassets */,
+				04E350DD1C4B048E004F7013 /* LaunchScreen.storyboard */,
+				04E350E01C4B048E004F7013 /* Info.plist */,
+			);
+			path = RKStatusBarNotifier;
+			sourceTree = "<group>";
+		};
+		04E350E81C4B48BD004F7013 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				04E350E91C4B48BD004F7013 /* DemoViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		04E350EA1C4B48BD004F7013 /* RKStatusBarNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				04E350EB1C4B48BD004F7013 /* Notifier.swift */,
+			);
+			path = RKStatusBarNotifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E350D01C4B048E004F7013 /* RKStatusBarNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E350E31C4B048E004F7013 /* Build configuration list for PBXNativeTarget "RKStatusBarNotifier" */;
+			buildPhases = (
+				04E350CD1C4B048E004F7013 /* Sources */,
+				04E350CE1C4B048E004F7013 /* Frameworks */,
+				04E350CF1C4B048E004F7013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKStatusBarNotifier;
+			productName = RKStatusBarNotifier;
+			productReference = 04E350D11C4B048E004F7013 /* RKStatusBarNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E350C91C4B048E004F7013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Raj Khatri";
+				TargetAttributes = {
+					04E350D01C4B048E004F7013 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 04E350CC1C4B048E004F7013 /* Build configuration list for PBXProject "RKStatusBarNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E350C81C4B048E004F7013;
+			productRefGroup = 04E350D21C4B048E004F7013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E350D01C4B048E004F7013 /* RKStatusBarNotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E350CF1C4B048E004F7013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E350DF1C4B048E004F7013 /* LaunchScreen.storyboard in Resources */,
+				04E350DC1C4B048E004F7013 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E350CD1C4B048E004F7013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E350ED1C4B48BD004F7013 /* Notifier.swift in Sources */,
+				04E350EC1C4B48BD004F7013 /* DemoViewController.swift in Sources */,
+				04E350D51C4B048E004F7013 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E350DD1C4B048E004F7013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E350DE1C4B048E004F7013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E350E11C4B048E004F7013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E350E21C4B048E004F7013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E350E41C4B048E004F7013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKStatusBarNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.RKStatusBarNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04E350E51C4B048E004F7013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKStatusBarNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.RKStatusBarNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E350CC1C4B048E004F7013 /* Build configuration list for PBXProject "RKStatusBarNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E350E11C4B048E004F7013 /* Debug */,
+				04E350E21C4B048E004F7013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E350E31C4B048E004F7013 /* Build configuration list for PBXNativeTarget "RKStatusBarNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E350E41C4B048E004F7013 /* Debug */,
+				04E350E51C4B048E004F7013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E350C91C4B048E004F7013 /* Project object */;
+}
