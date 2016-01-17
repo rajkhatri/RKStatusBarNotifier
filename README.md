@@ -1,6 +1,6 @@
 # RKStatusBarNotifier
 
-A Status Bar In-App Notification View
+An In-App Notification over the Status Bar
 
 A Simple Class that will allow you to add a custom look and feel status bar notification
 in the app. This notification can be shown in any view hierarchy. There are certain properties
