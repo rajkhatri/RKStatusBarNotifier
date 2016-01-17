@@ -33,9 +33,9 @@ class DemoViewController: UIViewController {
     func testBtnPressed() {
         // Just need to set these once [ Feel free to mess around with these parameters ]
 //        Notifier.sharedInstance.shouldShowNewNotificationBeforePreviousOneHidden = true
-//        Notifier.sharedInstance.statusBarNotifierLabel
-        Notifier.sharedInstance.statusBarAnimationDuration = 0.5
-        Notifier.sharedInstance.statusBarShowDurationLength = 3
+//        Notifier.sharedInstance.statusBarNotifierLabel // <-- Can use to adjust font / text color etc.
+//        Notifier.sharedInstance.statusBarAnimationDuration = 0.5
+//        Notifier.sharedInstance.statusBarShowDurationLength = 3
         Notifier.sharedInstance.showStatusBarNotifier("Test RKStatusBarNotifier", andBackgroundColor: UIColor.greenColor())
     }
 }
